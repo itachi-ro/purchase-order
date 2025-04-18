@@ -1,1 +1,24 @@
 /* You can add global styles to this file, and also import other style files */
+*,
+::after,
+::before {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: inherit;
+}
+body {
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+}
+:root {
+  --primary-blue: #6375f0;
+  --primary-red: #fe827a;
+  --primary-green: #7fcf6b;
+  --primary-bg: #ffffff;
+  --secondary-bg: #f4f4f4;
+  --primary-card: #f4f4f4;
+  
+  --text-primary: #000000;
+  --text-secondry: #bfbcbc;
+}
